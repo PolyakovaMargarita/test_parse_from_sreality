@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts", "*.ts"],
+  "exclude": ["node_modules"]
+}
